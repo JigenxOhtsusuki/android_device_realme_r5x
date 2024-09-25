@@ -363,9 +363,6 @@ PRODUCT_PACKAGES += \
     BluetoothOverlayR5x \
     ApertureOverlay
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
