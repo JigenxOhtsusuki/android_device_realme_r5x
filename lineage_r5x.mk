@@ -11,6 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#stark flags
+STARK_BUILD_TYPE := Official
+STARK_MAINTAINER := JigenxOhtsusuki
+WITH_GMS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE :true
+
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
