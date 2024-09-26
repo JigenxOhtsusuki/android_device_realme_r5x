@@ -17,7 +17,7 @@ STARK_MAINTAINER := JigenxOhtsusuki
 WITH_GMS := true
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE :true
+BUILD_GOOGLE_MESSAGE := true
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
